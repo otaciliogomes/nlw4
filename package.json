@@ -1,0 +1,33 @@
+{
+  "name": "nlw4",
+  "version": "1.0.0",
+  "description": "API de cadastro e envio de email para cliente",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --ignore-watch node_modules src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaciliogomes/nlw4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaciliogomes/nlw4/issues"
+  },
+  "homepage": "https://github.com/otaciliogomes/nlw4#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "typeorm": "^0.2.31",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/uuid": "^8.3.0",
+    "ts-node-dev": "^1.1.1",
+    "typescript": "^4.2.2"
+  }
+}
